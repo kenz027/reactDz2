@@ -56,7 +56,9 @@ const projects = [{
 
 function App() {
   return (
-    <Portfolio projects={projects}/>
+    <div className='App'>
+      <Portfolio projects={projects}/>
+    </div>
   )
 }
 
