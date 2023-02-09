@@ -1,0 +1,23 @@
+.toolbar{
+    list-style-type: none;
+    display: flex;
+    font-family: Arial;
+    font-weight: 700;
+}
+.toolbar li{
+    border: 1px solid black;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: .2s;
+}
+.toolbar li.active{
+    color:white;
+    background-color: gray;
+}
+.project-list{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap:10px;
+}
